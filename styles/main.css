@@ -21,7 +21,7 @@ main {
 }
 
 .site-header {
-  background-color: white;
+  background-color: rgb(209, 209, 209);
   padding: 40px 20px; /* 20px same as main and footer */
 }
 
