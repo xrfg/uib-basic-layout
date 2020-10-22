@@ -5,10 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Uib Basic Layout</title>
     <link rel="stylesheet" href="./styles/main.css" />
-    <link rel="stylesheet" href="./lib/normalize.css" />
+    <!-- <link rel="stylesheet" href="./lib/normalize.css" />
+    a stylesheet that normalizes the default values on the browsers -->
   </head>
   <body>
-    <header></header>
+    <header class="site-header">
+      <nav class="nav">
+        <a href="/" class="site-header-link">
+          <img
+            class="site-header-logo"
+            src="./img/black-cat.png"
+            alt="company-logo"
+          />
+        </a>
+
+        <ul class="site-menu">
+          <li class="site-menu-link">
+            <a href="/about/index.html">About</a>
+          </li>
+          <li class="site-menu-link">
+            <a href="#team">Team</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
     <main>
       <h1>
@@ -37,8 +57,17 @@
         delectus optio nulla explicabo, aliquam error ipsum voluptatum quia
         accusamus. Itaque?</span
       >
+      <h1 id="team">Team</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates
+        amet corporis nemo accusamus laboriosam excepturi, quis aliquid
+        explicabo quod temporibus mollitia totam recusandae odio. Quam deserunt
+        laudantium deleniti similique. Eaque assumenda nisi qui, quod nihil
+        facere, blanditiis et illo autem voluptatem, ex quam! Culpa dolore
+        earum, veniam iusto quis repellendus?
+      </p>
     </main>
 
-    <footer></footer>
+    <footer>Icons made with love and sweat babes</footer>
   </body>
 </html>

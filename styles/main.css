@@ -9,6 +9,45 @@ body {
   color: #444444;
 }
 
+main {
+  margin: 0 auto;
+  max-width: 900px; /* VERY IMPORTANT TO RESPONSIVE AND LOOK GOOD */
+  padding: 20px;
+  background-color: violet;
+}
+
+.nav {
+  margin: 0 auto;
+}
+
+.site-header {
+  background-color: white;
+  padding: 40px 20px; /* 20px same as main and footer */
+}
+
+.site-header-logo {
+  display: inline-block;
+  width: 40px;
+}
+
+.site-header-link {
+  display: inline-block;
+  background-color: teal;
+  padding: 20px;
+}
+
+.site-menu {
+  display: inline-block;
+}
+
+.site-menu-link {
+  display: inline-block;
+  padding: 20px;
+}
+.site-menu-link:hover {
+  color: tomato;
+}
+
 h1,
 span {
   width: 400px;
@@ -29,4 +68,11 @@ span {
 
 h2 {
   width: 80%;
+}
+
+footer {
+  background-color: sandybrown;
+  padding: 20px;
+  color: white;
+  text-align: right;
 }
